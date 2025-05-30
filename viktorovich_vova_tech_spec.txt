@@ -1,0 +1,59 @@
+PROJECT: VIKTOROVICH ($vova) — Meme Coin Website Specification
+DATE: 2025-05-29
+
+GENERAL THEME:
+- Design direction: post-soviet brutalism + ironic nostalgia with cyberpunk twist
+- Mood: grimy, warm golden lighting, vintage Soviet hardware, industrial decay, cyber-electric overlays
+- Visuals from provided material to be used as primary art foundation
+
+PAGE STRUCTURE:
+1. LANDING (fullscreen)
+   - Centered: VIKTOROVICH ($vova) logo + animated glitchy title
+   - Background: looping gritty motion scene (e.g. flickering Soviet TV static with sparking wires)
+   - Launch Date: "Launching soon on pump.fun"
+   - Interactive: sparks fly out when user hovers mouse over logo
+   - Buttons: [Telegram] [Twitter] [Pump.fun]
+
+2. “MANIFESTO” SECTION
+   - Title: "Who the hell is Viktorovich?"
+   - 180-word ironic lore story about mysterious cyber-stalker who smokes while fixing things he broke
+   - Animated reveal as you scroll (like machinery booting up)
+   - Background: slow pan of concrete apartment blocks with digital wires
+
+3. GALLERY SECTION
+   - Dynamic collage grid of images with hover zoom + distortion
+   - Button: “Show me more cursed art”
+   - Clicking opens modal slideshow with 8-bit synth playing
+
+4. $vova UTILITIES SECTION
+   - Fake features like:
+     - “Toast-Based Wallet”
+     - “Wrench2Earn”
+     - “$vova Auto-SovMode™”
+   - Each tile has icon that animates when hovered
+   - Background glitch sound loop
+
+5. INTERACTIVE BLOCK
+   - A haunted toaster mini-game (click rapidly to ‘extract value’ from it)
+   - Every click adds spark, sound, vibration
+   - Track score & show "Glory to Vova!" if user hits 100
+
+6. COMMUNITY SHOUTOUT
+   - Auto-rotating Telegram messages simulated on Soviet terminal interface
+   - Green phosphor glow, typing animation
+
+7. FOOTER
+   - Burnt-metal style panel with links: Pump.fun, TG, Twitter
+   - Text: “Made in basement by Vova & Co”
+
+EXTRA ELEMENTS:
+- Mouse cursor changes to wrench icon
+- Error popups triggered on scroll like "System Overload: $vova injection detected"
+- Voice whisper FX on hover elements ("Ты не понимаешь, Вова — это сила.")
+- All fonts: monospace, pixel-style or USSR inspired
+- Loading screen: boot sequence (loading BIOS: V.O.V.A.)
+
+IMPORTANT:
+- Absolutely unique structure — must not resemble other sites
+- Layout, animations and interactivity are top priority
+- Desktop-first, mobile-optimized

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIKTOROVICH ($vova) - Meme Coin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="bios-container">
+            <pre class="bios-text">
+INITIALIZING SYSTEM...
+LOADING BIOS: V.O.V.A.
+CHECKING MEMORY...
+LOADING SOVIET PROTOCOLS...
+INITIALIZING WRENCH DRIVERS...
+SYSTEM BOOT COMPLETE.
+            </pre>
+        </div>
+    </div>
+
+    <!-- Landing Section -->
+    <section id="landing" class="section">
+        <div class="tv-static"></div>
+        <div class="container centered">
+            <div class="logo-container">
+                <img src="logo.jpg" alt="VIKTOROVICH" class="main-logo">
+                <h1 class="glitch-title" data-text="VIKTOROVICH ($vova)">VIKTOROVICH ($vova)</h1>
+            </div>
+            <p class="launch-date">Launching soon on pump.fun</p>
+            <div class="social-buttons">
+                <a href="#" class="btn" id="telegram-btn">Telegram</a>
+                <a href="#" class="btn" id="twitter-btn">Twitter</a>
+                <a href="#" class="btn" id="pumpfun-btn">Pump.fun</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manifesto Section -->
+    <section id="manifesto" class="section">
+        <div class="container">
+            <h2 class="section-title">Who the hell is Viktorovich?</h2>
+            <div class="manifesto-content">
+                <p>
+                    Deep in the concrete jungle of post-Soviet apartment blocks, there lurks a figure known only as Viktorovich. 
+                    Surrounded by the flickering glow of vintage CRT monitors and the persistent hum of overworked cooling fans, 
+                    he sits chain-smoking Беломорканал, fingers dancing across salvaged keyboards.
+                </p>
+                <p>
+                    Nobody knows where he came from. Some say he was a former state security programmer who went rogue after the collapse. 
+                    Others insist he's a digital ghost in the machine, manifested from the collective unconscious of a thousand disillusioned system administrators.
+                </p>
+                <p>
+                    What we do know is this: Viktorovich only appears when systems break, only to fix what he himself sabotaged. 
+                    His solution always works, but leaves behind curious lines of code that spell out "$vova was here" in ways only true believers can decode.
+                </p>
+            </div>
+        </div>
+        <div class="background-panning"></div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Cursed Art Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-img="1.png"><img src="1.png" alt="Cursed Art 1"></div>
+                <div class="gallery-item" data-img="2.png"><img src="2.png" alt="Cursed Art 2"></div>
+                <div class="gallery-item" data-img="3.png"><img src="3.png" alt="Cursed Art 3"></div>
+                <div class="gallery-item" data-img="4.png"><img src="4.png" alt="Cursed Art 4"></div>
+                <div class="gallery-item" data-img="5.png"><img src="5.png" alt="Cursed Art 5"></div>
+            </div>
+            <button id="more-art" class="btn">Show me more cursed art</button>
+        </div>
+    </section>
+
+    <!-- Utilities Section -->
+    <section id="utilities" class="section">
+        <div class="container">
+            <h2 class="section-title">$vova UTILITIES</h2>
+            <div class="utilities-grid">
+                <div class="utility-item">
+                    <div class="utility-icon" id="toast-icon"></div>
+                    <h3>Toast-Based Wallet</h3>
+                    <p>Store your $vova tokens in perfectly burnt toast. Unhackable, unless you're hungry.</p>
+                </div>
+                <div class="utility-item">
+                    <div class="utility-icon" id="wrench-icon"></div>
+                    <h3>Wrench2Earn</h3>
+                    <p>Fix broken tech, earn $vova. The more you break first, the more you earn.</p>
+                </div>
+                <div class="utility-item">
+                    <div class="utility-icon" id="sovmode-icon"></div>
+                    <h3>$vova Auto-SovMode™</h3>
+                    <p>One-click transformation of any web interface into authentic Soviet terminal. Red included.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Game Section -->
+    <section id="game" class="section">
+        <div class="container">
+            <h2 class="section-title">Haunted Toaster</h2>
+            <div class="game-container">
+                <div id="toaster">
+                    <div class="toaster-body"></div>
+                    <div class="toaster-slots"></div>
+                    <div class="toaster-lever"></div>
+                </div>
+                <div id="game-instructions">Click rapidly to extract value!</div>
+                <div id="score-display">Score: <span id="score">0</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="section">
+        <div class="container">
+            <h2 class="section-title">Community Terminal</h2>
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span>SOVIET COMMUNITY MONITOR v1.3</span>
+                </div>
+                <div class="terminal-content" id="terminal-messages">
+                    <!-- Messages will be populated via JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Pump.fun</a>
+                <a href="#">Telegram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <p class="footer-text">Made in basement by Vova & Co</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Gallery -->
+    <div id="gallery-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <img id="modal-img" src="" alt="Gallery image">
+        </div>
+    </div>
+
+    <!-- Error Popup Template -->
+    <div class="error-popup" id="error-popup">
+        <div class="error-header">
+            <span>SYSTEM ERROR</span>
+            <span class="close-error">&times;</span>
+        </div>
+        <div class="error-content">
+            <p id="error-message">System Overload: $vova injection detected</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
